@@ -1,0 +1,229 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c1{
+  margin: 100px auto; /* Added */
+  float: none; /* Added */
+  height: auto;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.c1{
+  margin: 50px auto;
+  padding: 100px 0;
+  width:100%;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .c1{
+    margin: 50px auto;
+    padding: 100px 0;
+    width:100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .c1{
+    margin: 50px auto;
+    padding: 200px 0;
+    width:100%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .c1{
+    margin: 50px auto;
+    padding: 200px 300px;
+    width:100%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .c1{
+    margin: 20px auto;
+    padding: 200px 300px;
+    width:100%;
+  }
+}
+.c2{
+  margin-top: 50px;
+
+  padding: 50px 50px;
+
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.j1{
+ margin:70px;
+}
+body{
+  background: rgb(1, 3, 5);
+  background-color: white;
+}
+.card {
+  border: 5px solid white;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+#headtag{
+    color: rgb(0, 0, 0);
+    font-size: auto;
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#foot{
+    margin-bottom: 0;
+    background-color: rgb(31, 41, 41);
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+
+.blk{
+    display: block;
+    font-size: 20px;
+    position: relative;
+    width: 100%;
+    color:white;
+}
+#sel{
+    width:100%;
+}
+table{
+    margin: auto;
+    width: 70%;
+    color: black;
+    background-color: white;
+}
+td, th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+thead{
+  background-color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.inp{
+    border-radius: 5px;
+}
+html {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 15px;
+    }
+  }
+/* cyrillic */
+@font-face {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebunDTbtPY_Q.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+ 
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+.bg {
+    background-color: black;
+}
+section .section-title {
+    text-align: center;
+    color: black;
+    position: fixed;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: black !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
